@@ -11,7 +11,7 @@ function Projects() {
         "NestNotes is a modern, full-stack note-taking application constructed within a high-performance monorepo powered by Turborepo. Database performance is optimized by implementing Drizzle ORM with Neon Postgres, resulting in 40% faster query execution compared to standard REST-to-SQL implementations.",
       name: "NestNotes",
       year: "2025",
-      link: "https://github.com/Sharkyyyx28",
+      link: "https://github.com/Sharkyyyx28/NestNotes",
       techStack: ["Next.js", "Drizzle ORM", "Neon Serverless Postgres", "Turborepo"],
       images: [
         "/images/nestnotes/1.png",
@@ -23,10 +23,13 @@ function Projects() {
         "Smart-trip is an AI-powered trip planner that assists users in generating, managing, and securely viewing personalized travel itineraries. Firebase Firestore powers real-time synchronization, with React delivering a seamless travel planning UI.",
       name: "Smart-trip",
       year: "2025",
-      link: "https://github.com/Sharkyyyx28",
+      link: "https://smart-trip-three.vercel.app/",
       techStack: ["React", "TypeScript", "Firebase Firestore", "Gemini AI"],
       images: [
         "/images/smarttrip/1.png",
+        "/images/smarttrip/2.png",
+        "/images/smarttrip/3.png",
+        "/images/smarttrip/4.png",
       ],
     },
     {
@@ -35,10 +38,12 @@ function Projects() {
         "Agrobot Realtime Viewer is a frontend interface leveraging React and Firebase for the real-time monitoring of agricultural rover data, with real-time data visualization maintaining sub-200ms latency for live tracking of soil temperature and humidity across multiple sensor nodes.",
       name: "Agrobot Realtime Viewer",
       year: "2024",
-      link: "https://github.com/Sharkyyyx28",
+      link: "https://agro-bot2102.vercel.app/",
       techStack: ["React", "Firebase", "IoT Sensors"],
       images: [
         "/images/agrobot/1.png",
+        "/images/agrobot/2.png",
+        "/images/agrobot/3.png",
       ],
     },
   ];
