@@ -8,8 +8,8 @@ export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Agnish Bhattacharya",
-    "url": "https://agnishbhattacharya.in",
+    "name": "Aditya Verma",
+    "url": "https://sharkyyyx28.space",
     "jobTitle": "Software Engineer"
   };
 

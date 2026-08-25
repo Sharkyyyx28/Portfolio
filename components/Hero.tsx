@@ -53,7 +53,7 @@ export default function Hero() {
       ) : index === 3 ? (
         <BlockchainAnimation />
       ) : index === 9 ? (
-        `[Rust]`
+        `[Docker]`
       ) : (
         <div className="w-1.5 h-1.5 bg-[#E5E7EB] dark:bg-zinc-700"></div>
       )}
@@ -134,7 +134,7 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col gap-[1px] col-span-1 w-full">
-             <GridDiv className="h-[200px] font-mono">[Solana]</GridDiv>
+             <GridDiv className="h-[200px] font-mono">[MongoDB]</GridDiv>
              <GridDiv className="h-[100px]"></GridDiv>
              <GridDiv className="h-[101px]">[Next Js]</GridDiv>
           </div>

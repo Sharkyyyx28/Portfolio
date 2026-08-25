@@ -37,7 +37,7 @@ const DropdownSpacer = ({ isOpen }: { isOpen: boolean }) => (
 );
 
 export default function Navbar({
-  name = "Agnish Bhattacharya",
+  name = "Aditya Verma",
   animatedTexts = ["Software Engineer", "Web3 Developer"],
 }: NavbarProps) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

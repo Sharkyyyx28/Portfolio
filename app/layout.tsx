@@ -23,27 +23,26 @@ const merienda = Merienda({
 });
 
 export const metadata: Metadata = {
-  title: "Agnish Bhattacharya | Software Engineer & Web3 Developer",
+  title: "Aditya Verma | Software Engineer & Web3 Developer",
   description:
-    "I am Agnish Bhattacharya, a Full-Stack Software Engineer from India specializing in Next.js, scalable system architectures, and Web3 blockchain solutions.",
-  metadataBase: new URL("https://agnishbhattacharya.in"),
+    "I am Aditya Verma, a Full-Stack Software Engineer from India specializing in Next.js, scalable system architectures, and Web3 blockchain solutions.",
+  metadataBase: new URL("https://sharkyyyx28.space"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Agnish Bhattacharya | Software Engineer",
+    title: "Aditya Verma | Software Engineer",
     description: "Full-Stack Software Engineer and Web3 Developer.",
-    url: "https://agnishbhattacharya.in",
-    siteName: "Agnish Bhattacharya",
+    url: "https://sharkyyyx28.space",
+    siteName: "Aditya Verma",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Agnish Bhattacharya | Software Engineer",
+    title: "Aditya Verma | Software Engineer",
     description: "Full-Stack Software Engineer and Web3 Developer.",
-    creator: "@AgnishBhat",
     images: ["/twitter-image.jpg"],
   },
 };

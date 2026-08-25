@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FiArrowUpRight, FiDownload } from "react-icons/fi";
 
@@ -97,27 +97,22 @@ export default function AboutContent() {
                 {[
                   {
                     name: "Email",
-                    href: "mailto:agnishbhattacharya161104@gmail.com",
+                    href: "mailto:yashverma3457@gmail.com",
                     icon: <MdEmail className="text-lg" />,
                   },
                   {
                     name: "LinkedIn",
-                    href: "https://www.linkedin.com/in/agnish-bhattacharya-324031286/",
+                    href: "https://www.linkedin.com/in/aditya-verma-19a179303/",
                     icon: <FaLinkedinIn className="text-lg" />,
                   },
                   {
-                    name: "Twitter",
-                    href: "https://x.com/agnish1611",
-                    icon: <FaXTwitter className="text-lg" />,
-                  },
-                  {
                     name: "GitHub",
-                    href: "https://github.com/Agnish1611",
+                    href: "https://github.com/Sharkyyyx28",
                     icon: <FaGithub className="text-lg" />,
                   },
                   {
                     name: "Resume",
-                    href: "/Resume_Agnish_Bhattacharya.pdf",
+                    href: "/Resume_Aditya_Verma.pdf",
                     icon: <FiDownload className="text-lg" />,
                   },
                 ].map((social) => (
@@ -128,7 +123,7 @@ export default function AboutContent() {
                     className="group relative flex items-center justify-between p-4 overflow-hidden rounded-xl bg-white dark:bg-zinc-800 border border-zinc-100 dark:border-zinc-700 transition-all duration-500 hover:border-black dark:hover:border-zinc-500 hover:shadow-md"
                     target="_blank"
                     rel="noopener noreferrer"
-                    {...(social.name === "Resume" ? { download: "Resume_Agnish_Bhattacharya.pdf" } : {})}
+                    {...(social.name === "Resume" ? { download: "Resume_Aditya_Verma.pdf" } : {})}
                   >
                     <div className="absolute inset-0 bg-black dark:bg-white translate-y-[101%] group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]"></div>
 
@@ -155,7 +150,7 @@ export default function AboutContent() {
             <div className="flex flex-col gap-10">
               <div className="font-mono text-xs uppercase tracking-widest text-zinc-400 border-b border-zinc-200 pb-2 flex justify-between">
                 <span>{"// Introduction"}</span>
-                <span>Agnish</span>
+                <span>Aditya</span>
               </div>
 
               <h1 className="text-4xl lg:text-5xl font-pangaia-medium leading-tight tracking-tight text-black dark:text-white max-w-lg">
@@ -167,33 +162,33 @@ export default function AboutContent() {
 
               <div className="text-lg text-zinc-600 leading-relaxed font-light space-y-6 max-w-xl">
                 <p>
-                  I am a 3rd-year student at IIIT Ranchi with a deep-seated
-                  passion for building digital products from the ground up. My
-                  journey in development is defined by a balance between
-                  technical leadership and the grit of the startup world.
+                  I am a B.Tech student in Electronics and Communication
+                  Engineering at IIIT Ranchi with a deep-seated passion for
+                  building digital products from the ground up. My journey in
+                  development is defined by a balance between rigorous
+                  coursework and hands-on, full-stack engineering work.
                 </p>
                 <p>
-                  Currently, I serve as the Software Development Wing Lead at
-                  House of Geeks, where I lead a community of developers in
-                  architecting scalable solutions. My work is centered on
-                  creating seamless user experiences using{" "}
+                  Currently, I&apos;m a Software Engineer Intern at Neubitat
+                  Consulting, where I build AI-powered features for Insilver,
+                  a silver jewellery e-commerce platform. My work is centered
+                  on creating seamless user experiences using{" "}
                   <span className="text-black dark:text-white font-medium">
                     Next.js and Tailwind CSS
                   </span>
-                  , backed by robust, high-performance systems built on complex
-                  SQL architectures.
+                  , backed by robust, high-performance systems built on
+                  FastAPI and MySQL.
                 </p>
                 <p>
-                  Beyond my roles on campus, I am a{" "}
+                  Before that, I worked as an SDE Intern (Full Stack) at{" "}
                   <span className="text-black dark:text-white font-medium">
-                    co-founder of Draviya
+                    Draviya
                   </span>
-                  . Alongside my co-founders Yash and Aditya, I am focused on
-                  building the next generation of tools for the creator economy.
-                  Whether I&apos;m diving into a freelance backend project or
-                  refining a SaaS business model, I&apos;m driven by the
-                  challenge of turning lines of code into a functional,
-                  impactful product.
+                  , integrating Privy authentication and building Web3
+                  dashboard features with Web3.js for real-time on-chain data.
+                  Whether I&apos;m diving into a Web3 integration or shipping
+                  a full-stack feature, I&apos;m driven by the challenge of
+                  turning lines of code into a functional, impactful product.
                 </p>
                 <p className="text-black dark:text-white font-pangaia-medium text-xl leading-snug pt-6 border-t border-zinc-200 mt-8">
                   I&apos;m always looking for ways to push the boundaries of
@@ -241,33 +236,33 @@ export default function AboutContent() {
               </h1>
               <div className="text-base text-zinc-600 dark:text-zinc-300 leading-relaxed font-light space-y-4">
                 <p>
-                  I am a 3rd-year student at IIIT Ranchi with a deep-seated
-                  passion for building digital products from the ground up. My
-                  journey in development is defined by a balance between
-                  technical leadership and the grit of the startup world.
+                  I am a B.Tech student in Electronics and Communication
+                  Engineering at IIIT Ranchi with a deep-seated passion for
+                  building digital products from the ground up. My journey in
+                  development is defined by a balance between rigorous
+                  coursework and hands-on, full-stack engineering work.
                 </p>
                 <p>
-                  Currently, I serve as the Software Development Wing Lead at
-                  House of Geeks, where I lead a community of developers in
-                  architecting scalable solutions. My work is centered on
-                  creating seamless user experiences using{" "}
+                  Currently, I&apos;m a Software Engineer Intern at Neubitat
+                  Consulting, where I build AI-powered features for Insilver,
+                  a silver jewellery e-commerce platform. My work is centered
+                  on creating seamless user experiences using{" "}
                   <span className="text-black dark:text-white font-medium">
                     Next.js and Tailwind CSS
                   </span>
-                  , backed by robust, high-performance systems built on complex
-                  SQL architectures.
+                  , backed by robust, high-performance systems built on
+                  FastAPI and MySQL.
                 </p>
                 <p>
-                  Beyond my roles on campus, I am a{" "}
+                  Before that, I worked as an SDE Intern (Full Stack) at{" "}
                   <span className="text-black dark:text-white font-medium">
-                    co-founder of Draviya
+                    Draviya
                   </span>
-                  . Alongside my co-founders Yash and Aditya, I am focused on
-                  building the next generation of tools for the creator economy.
-                  Whether I&apos;m diving into a freelance backend project or
-                  refining a SaaS business model, I&apos;m driven by the
-                  challenge of turning lines of code into a functional,
-                  impactful product.
+                  , integrating Privy authentication and building Web3
+                  dashboard features with Web3.js for real-time on-chain data.
+                  Whether I&apos;m diving into a Web3 integration or shipping
+                  a full-stack feature, I&apos;m driven by the challenge of
+                  turning lines of code into a functional, impactful product.
                 </p>
                 <p className="text-black dark:text-white font-pangaia-medium text-lg leading-snug pt-6 border-t border-zinc-200 dark:border-zinc-700 mt-6">
                   I&apos;m always looking for ways to push the boundaries of
@@ -285,27 +280,22 @@ export default function AboutContent() {
                 {[
                   {
                     name: "Email",
-                    href: "mailto:agnishbhattacharya161104@gmail.com",
+                    href: "mailto:yashverma3457@gmail.com",
                     icon: <MdEmail className="text-lg" />,
                   },
                   {
                     name: "LinkedIn",
-                    href: "https://www.linkedin.com/in/agnish-bhattacharya-324031286/",
+                    href: "https://www.linkedin.com/in/aditya-verma-19a179303/",
                     icon: <FaLinkedinIn className="text-lg" />,
                   },
                   {
-                    name: "Twitter",
-                    href: "https://x.com/agnish1611",
-                    icon: <FaXTwitter className="text-lg" />,
-                  },
-                  {
                     name: "GitHub",
-                    href: "https://github.com/Agnish1611",
+                    href: "https://github.com/Sharkyyyx28",
                     icon: <FaGithub className="text-lg" />,
                   },
                   {
                     name: "Resume",
-                    href: "/Resume_Agnish_Bhattacharya.pdf",
+                    href: "/Resume_Aditya_Verma.pdf",
                     icon: <FiDownload className="text-lg" />,
                   },
                 ].map((social) => (
@@ -316,7 +306,7 @@ export default function AboutContent() {
                     className="group relative flex items-center justify-between p-4 overflow-hidden rounded-xl bg-white dark:bg-zinc-800 border border-zinc-100 dark:border-zinc-700 transition-all duration-500 hover:border-black dark:hover:border-zinc-500 hover:shadow-md"
                     target="_blank"
                     rel="noopener noreferrer"
-                    {...(social.name === "Resume" ? { download: "Resume_Agnish_Bhattacharya.pdf" } : {})}
+                    {...(social.name === "Resume" ? { download: "Resume_Aditya_Verma.pdf" } : {})}
                   >
                     <div className="absolute inset-0 bg-black dark:bg-white translate-y-[101%] group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]"></div>
 

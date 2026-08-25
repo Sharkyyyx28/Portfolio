@@ -14,8 +14,8 @@ function Footer() {
         <div className="h-full col-span-1 rounded-lg bg-[#f9f9f9] dark:bg-zinc-900"></div>
         <div className="h-full col-span-1 rounded-lg bg-[#f9f9f9] dark:bg-zinc-900"></div>
         <div className="h-full col-span-8 rounded-lg bg-[#f9f9f9] dark:bg-zinc-900 flex justify-between items-center px-5 text-xs text-zinc-400 font-mono">
-           <div>Copyright © <span className="text-red-500">Agnish</span></div>
-           <div>[updated/September.2025]</div>
+           <div>Copyright © <span className="text-red-500">Aditya</span></div>
+           <div>[updated/August.2026]</div>
         </div>
         <div className="h-full col-span-1 rounded-lg bg-[#f9f9f9] dark:bg-zinc-900"></div>
         <div className="h-full col-span-1 rounded-lg bg-[#f9f9f9] dark:bg-zinc-900"></div>
@@ -24,8 +24,8 @@ function Footer() {
       {/* Mobile Footer */}
       <div className="lg:hidden w-[90vw] md:w-[600px] gap-[1px] flex flex-shrink-0 h-full">
          <div className="h-full w-full rounded-lg bg-[#f9f9f9] dark:bg-zinc-900 flex justify-between items-center px-5 text-xs text-zinc-400 font-mono">
-            <div>Copyright © <span className="text-red-500">Agnish</span></div>
-            <div>[updated/September.2025]</div>
+            <div>Copyright © <span className="text-red-500">Aditya</span></div>
+            <div>[updated/August.2026]</div>
          </div>
       </div>
       

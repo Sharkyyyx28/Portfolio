@@ -2,51 +2,41 @@
 
 import React, { useState } from "react";
 
-const DOMAINS = ["Frontend", "Backend", "DevOps & Cloud", "Blockchain"];
+const DOMAINS = ["Frontend", "Backend", "Tools & Cloud", "Core Concepts"];
 const SKILLS = [
   // Frontend
   [
-    ["frameworks", "Next.js"],
-    [
-      "libraries",
-      "React.js, React Query, Redux, Recoil, Zustand, Tailwind CSS, Shadcn/UI, Framer Motion",
-    ],
-    ["languages", "JavaScript (ES6+), TypeScript, HTML5, CSS3"],
-    ["tools", "Vite, Babel, ESLint, Prettier"],
+    ["frameworks", "Next.js, React"],
+    ["state", "Redux"],
+    ["languages", "JavaScript (ES6+), TypeScript"],
+    ["testing", "Jest, Playwright"],
     ["experience", "2+ years"],
   ],
 
   // Backend
   [
-    ["frameworks", "Express.js"],
-    ["languages", "Node.js, Python, JavaScript, TypeScript"],
-    ["databases", "PostgreSQL, MySQL, MongoDB"],
-    ["ORMs", "Prisma, Sequelize, Mongoose"],
-    ["APIs", "REST"],
-    ["authentication", "JWT, Better Auth, NextAuth.js, Clerk, Firebase Auth"],
+    ["frameworks", "Express"],
+    ["languages", "Node.js, Python, C++, Kotlin"],
+    ["databases", "PostgreSQL, MongoDB"],
+    ["ORMs", "Prisma, Mongoose"],
+    ["realtime", "Socket.IO"],
     ["experience", "1.5+ years"],
   ],
 
-  // DevOps & Cloud
+  // Tools & Cloud
   [
-    ["cloud providers", "AWS"],
+    ["cloud providers", "AWS (EC2, S3), Vercel, Cloudflare, Firebase"],
     ["containerization", "Docker"],
-    ["orchestration", "Kubernetes"],
-    ["CI/CD", "GitHub Actions, GitLab CI"],
-    ["monitoring & logging", "Prometheus, Grafana"],
-    ["version control", "Git, GitHub, GitLab"],
+    ["CI/CD", "GitLab CI/CD Runners"],
+    ["version control", "Git, GitHub"],
+    ["OS", "Linux"],
     ["experience", "1+ years"],
   ],
 
-  // Blockchain
+  // Core Concepts
   [
-    ["languages", "Solidity, Rust"],
-    ["frameworks", "Foundry"],
-    ["libraries", "Ethers.js, Web3.js"],
-    ["networks", "Ethereum, Solana"],
-    ["tools", "Metamask, Remix IDE"],
-    ["concepts", "Smart Contracts, NFTs, Token Standards (ERC-20)"],
-    ["experience", "<1 year"],
+    ["fundamentals", "Data Structures & Algorithms, OOP"],
+    ["systems", "DBMS, Operating Systems, Computer Networks"],
   ],
 ];
 
@@ -103,7 +93,7 @@ function Skills() {
             </div>
             <h2 className="col-span-6 w-full h-full bg-[#f9f9f9] dark:bg-zinc-900 text-zinc-400 flex items-center px-5 lg:px-10 rounded-lg font-mono text-xs lg:text-sm">
               <div className="h-4 w-4 rounded-sm bg-zinc-300 mr-5"></div>
-              https://agnish/
+              https://sharkyyyx28/
               <span className="text-zinc-700 dark:text-zinc-200">skills&expertise</span>
             </h2>
           </div>
@@ -120,7 +110,7 @@ function Skills() {
         <div className="w-[90vw] md:w-[600px] flex gap-[1px] flex-shrink-0 h-full">
           <h2 className="w-full h-full bg-[#f9f9f9] dark:bg-zinc-900 text-zinc-400 flex items-center px-5 rounded-lg font-mono text-xs">
             <div className="h-4 w-4 rounded-sm bg-zinc-300 mr-5"></div>
-            https://agnish/
+            https://sharkyyyx28/
             <span className="text-zinc-700 dark:text-zinc-200">skills&expertise</span>
           </h2>
         </div>
@@ -170,8 +160,8 @@ function Skills() {
             </div>
             <div className="col-span-6 w-full h-full bg-none rounded-lg flex flex-col gap-[1px]">
               <a
-                href="/Resume_Agnish_Bhattacharya.pdf"
-                download="Resume_Agnish_Bhattacharya.pdf"
+                href="/Resume_Aditya_Verma.pdf"
+                download="Resume_Aditya_Verma.pdf"
                 className="h-[calc(20%-1px)] w-full bg-[#f9f9f9] dark:bg-zinc-900 rounded-lg flex items-center justify-center gap-20 cursor-pointer group hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
                 title="Download Resume"
               >
@@ -266,8 +256,8 @@ function Skills() {
           {/* Skills Section */}
           <div className="w-full h-fit bg-none rounded-lg flex flex-col gap-[1px]">
             <a
-              href="/Resume_Agnish_Bhattacharya.pdf"
-              download="Resume_Agnish_Bhattacharya.pdf"
+              href="/Resume_Aditya_Verma.pdf"
+              download="Resume_Aditya_Verma.pdf"
               className="h-fit py-3 w-full bg-[#f9f9f9] dark:bg-zinc-900 rounded-lg flex items-center justify-center gap-8 cursor-pointer group hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
               title="Download Resume"
             >
