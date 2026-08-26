@@ -121,10 +121,10 @@ export default function Hero() {
                 I&apos;m a Software Engineer from India
               </h1>
               <p className="font-mono text-sm text-zinc-500 leading-relaxed text-center">
-                I&apos;m a <span className="text-red-500">developer</span> who loves
-                building projects around blockchain and full-stack applications.
-                I enjoy experimenting with new technologies, winning hackathons,
-                and creating Web3 solutions.
+                I&apos;m a <span className="text-red-500">full-stack developer</span> who
+                builds production SaaS platforms, real-time systems, and Web3
+                applications. I&apos;ve interned at Neubitat Consulting and Draviya,
+                and love competitive programming and hackathons.
               </p>
             </div>
           </div>
@@ -155,10 +155,10 @@ export default function Hero() {
               </h2>
               <p className="font-mono text-sm text-zinc-600 leading-relaxed">
                 I&apos;m a{" "}
-                <span className="text-red-500 font-semibold">developer</span>{" "}
-                who loves building projects around blockchain and full-stack
-                applications. I enjoy experimenting with new technologies,
-                winning hackathons, and creating Web3 solutions.
+                <span className="text-red-500 font-semibold">full-stack developer</span>{" "}
+                who builds production SaaS platforms, real-time systems, and
+                Web3 applications. I&apos;ve interned at Neubitat Consulting
+                and Draviya, and love competitive programming and hackathons.
               </p>
             </div>
           </div>
