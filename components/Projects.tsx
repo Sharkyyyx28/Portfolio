@@ -32,18 +32,6 @@ function Projects() {
       ],
     },
     {
-      title: "A full-stack note-taking app in a high-performance monorepo",
-      description:
-        "NestNotes is a modern, full-stack note-taking application constructed within a high-performance monorepo powered by Turborepo. Database performance is optimized by implementing Drizzle ORM with Neon Postgres, resulting in 40% faster query execution compared to standard REST-to-SQL implementations.",
-      name: "NestNotes",
-      year: "2025",
-      link: "https://github.com/Sharkyyyx28/NestNotes",
-      techStack: ["Next.js", "Drizzle ORM", "Neon Serverless Postgres", "Turborepo"],
-      images: [
-        "/images/nestnotes/1.png",
-      ],
-    },
-    {
       title: "An AI-powered trip planner",
       description:
         "Smart-trip is an AI-powered trip planner that assists users in generating, managing, and securely viewing personalized travel itineraries. Firebase Firestore powers real-time synchronization, with React delivering a seamless travel planning UI.",
