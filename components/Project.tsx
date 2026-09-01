@@ -138,6 +138,7 @@ interface ProjectProps {
   year: string;
   images: string[];
   index: number;
+  total: number;
   link?: string;
   techStack?: string[];
 }
@@ -149,6 +150,7 @@ function Project({
   year,
   images,
   index,
+  total,
   link,
   techStack,
 }: ProjectProps) {
@@ -171,6 +173,7 @@ function Project({
   const { selectedIndex: mobileSelectedIndex, onDotButtonClick: onMobileDotButtonClick } = useDotButton(mobileEmblaApi);
 
   const formattedIndex = (index + 1).toString().padStart(2, "0");
+  const formattedTotal = total.toString().padStart(2, "0");
 
   return (
     <>
@@ -218,7 +221,8 @@ function Project({
                 <span className="text-zinc-700">see featured works</span>
               </div>
               <div className="text-zinc-400">
-                <span className="text-red-500">{formattedIndex}</span>/04
+                <span className="text-red-500">{formattedIndex}</span>/
+                {formattedTotal}
               </div>
             </div>
             <EmblaCarousel
@@ -301,7 +305,7 @@ function Project({
           <div className="h-[80px] w-full rounded-lg bg-[#f9f9f9] dark:bg-zinc-900 flex flex-col justify-center px-4 font-mono text-sm gap-1">
             <div className="flex justify-between w-full">
               <span className="text-red-500 text-xs">
-                [{formattedIndex}/03]
+                [{formattedIndex}/{formattedTotal}]
               </span>
               <span className="text-zinc-500 text-xs">[{year}]</span>
             </div>

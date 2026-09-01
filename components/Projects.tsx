@@ -6,6 +6,32 @@ import Project from "./Project";
 function Projects() {
   const projects = [
     {
+      title: "An open civic data platform for the city of Lucknow",
+      description:
+        "Lucknow civic data pulls the city's scattered public records into one searchable place: an interactive Leaflet map of the municipal boundary, 121 elected representatives across 9 constituencies and 110 wards, a draggable metro and suburban rail timeline, nearest-amenity lookup for saved neighbourhoods, and a resident-reported community feed. Every dataset carries a visible provenance note, and gaps are labelled rather than guessed at.",
+      name: "Lucknow civic data",
+      year: "2026",
+      link: "https://lucknow.sharkyyyx28.space/",
+      techStack: [
+        "Next.js 14",
+        "TypeScript",
+        "Leaflet",
+        "MySQL",
+        "NextAuth",
+        "Tailwind CSS",
+        "Turf.js",
+        "OpenStreetMap",
+      ],
+      images: [
+        "/images/lucknow/1.png",
+        "/images/lucknow/2.png",
+        "/images/lucknow/3.png",
+        "/images/lucknow/4.png",
+        "/images/lucknow/5.png",
+        "/images/lucknow/6.png",
+      ],
+    },
+    {
       title: "A full-stack note-taking app in a high-performance monorepo",
       description:
         "NestNotes is a modern, full-stack note-taking application constructed within a high-performance monorepo powered by Turborepo. Database performance is optimized by implementing Drizzle ORM with Neon Postgres, resulting in 40% faster query execution compared to standard REST-to-SQL implementations.",
@@ -64,6 +90,7 @@ function Projects() {
           techStack={project.techStack}
           images={project.images}
           index={index}
+          total={projects.length}
         />
       ))}
     </section>
